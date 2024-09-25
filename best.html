@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"
+<!---->
+</head> <!--Create a new website using HTML and Bootstrap. 
+The website must include the following:
+At least 2 pages.
+A Bootstrap navbar, table, and form.
+Bootstrap grid used throughout to format elements
+Elements should stack vertically when the window is small
+-->
+<body  background="flower.webp ">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Spiritual Radiance</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="best.html">Service Offered</a>
+              </li>
+              
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html">Home</a></li>
+                  <li><a class="dropdown-item" href="best.html">Service Offered</a></li>
+                 
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--info Cards-->    
+      <div class="card" style="margin-left: 20%; margin-right: 20% ; background-color: aqua; margin-top: 5%;">
+        <img src="tarot.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <title>Tarot Reading</title>
+          <p class="card-text" style="text-align: center;">Tarot Readings:
+
+            Tarot readings involve drawing cards from a tarot deck to gain insights into various aspects of life, including personal growth, relationships, and future prospects</p>
+        </div>
+      </div>
+      <h4 style="color: rgb(17, 31, 44); text-align: center;">Tarot Reading</h4>
+
+      <div class="card" style="margin-left: 20%; margin-right: 20% ; background-color: aqua;">
+        <img src="aura-chakras-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Chakras are energy centers within the human body that play a crucial role in physical, emotional, and spiritual well-being. There are seven main chakras, each associated with specific functions and characteristics</p>
+        </div>
+      </div>
+      <H4 style="color: aliceblue;text-align: center;">Chakra Reading</H4>
+      <br>
+
+      <!--sign up form-->
+<h2 style="padding: 2px; color: aliceblue;"> Sign Up Today For A Free Reading! </h2>
+      <form class="row container-fluid needs-validation mt-2" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" style="color: aliceblue;" class="form-label"><b>First name</b</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4" style="color: aliceblue;">
+          <label for="validationCustom02" class="form-label"><b>Last name</b</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4" style="color: aliceblue;">
+          <label for="validationCustomUsername" class="form-label"><b>Username</b</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control"  id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+       
+        </div>
+        <div class="col-md-3" style="color: aliceblue;">
+          <label for="validationCustom05" class="form-label"><b>Zip</b</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback" >
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
+
+
+
+
+    
+</body>
+</html>
